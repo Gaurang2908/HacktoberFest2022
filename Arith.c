@@ -1,13 +1,8 @@
 #include<stdio.h>
-#include<math.h>
-main()
+void main()
 {
-	float a,b;
+	int a,b;
 	printf("Enter any two Floating point numbers:");
-	scanf("%f%f",&a,&b);
-	printf("\nAdition=%f",(a+b));
-	printf("\nSubtraction=%f",(a-b));
-	printf("\nMultiplication=%f",(a*b));
-	printf("\nDivision=%f",(a/b));
-	printf("\nModulo Division=%f",fmod(a,b));
+	scanf("%d %d",&a,&b);
+	printf("Adition=%d\nSubtraction=%d\nMultiplication=%d\nDivision=%d\nModulo Division=%d\n",a+b,a-b,a*b,a/b,a%b);
 }
