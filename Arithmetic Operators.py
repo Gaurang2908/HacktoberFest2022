@@ -1,31 +1,23 @@
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
-    # Addition = Add two operands
-    add_ans = a + b 
-    print(add_ans)
+    # Addition = Add two operand
+    print(a+b)
     
     #Subtraction = Subtract two operands
-    sub_ans = a - b
-    print(sub_ans)
+    print(a-b)
     
     #Multiplication = Multiplies two operands
-    mul_ans = a * b
-    print(mul_ans)
+    print(a*b)
     
     #Division (float) = Divide operand1 by operand2 and return ans in floating number
-    floatdiv_ans = a / b
-    print(floatdiv_ans)
+    print(a/b)
     
     #Division (floor) = Divide operand1 by operand2 and return ans in natural number
-    floordiv_ans = a // b
-    print(floordiv_ans)
+    print(a//b)
     
     #Modulo = Divide operand1 by operand2 and return the remainder
-    mod_ans = a % b
-    print(mod_ans)
+    print(a%b)
     
     #Power = Return operand1 raised to power of operand2
-    pow_ans = a ** b
-    print(pow_ans)
-    
+    print(a**b)
