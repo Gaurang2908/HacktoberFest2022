@@ -1,0 +1,17 @@
+{
+  "files.associations": {
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "string": "cpp",
+    "vector": "cpp",
+    "functional": "cpp",
+    "iomanip": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "ostream": "cpp",
+    "ratio": "cpp",
+    "sstream": "cpp",
+    "streambuf": "cpp",
+    "regex": "cpp"
+  }
+}
